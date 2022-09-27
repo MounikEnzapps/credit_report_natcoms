@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+ <report id="credit_natcom_header_dec_view"
+      		model="account.move"
+      		string="Credit Natcom Header PDF"
+      		report_type="qweb-pdf"
+      		name="credit_report_natcoms.credit_natcom_header_view"
+      		file="credit_report_natcoms.credit_natcom_header_view"
+    />
+	<report id="credit_natcom_no_header"
+      		model="account.move"
+      		string="Credit Natcom Without"
+      		report_type="qweb-pdf"
+      		name="credit_report_natcoms.natcom_jan_view_credit"
+      		file="credit_report_natcoms.natcom_jan_view_credit"
+			/>
+
+
+
+</odoo>
